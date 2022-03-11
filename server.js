@@ -22,7 +22,7 @@ app.listen(3000, function() {
 })
 app.get('/hostel',async(req,res)=>
 {  
-console.log('hostellist')
+console.log('GCE salem techies!');
 //res.send('dhivya')
 const hostellist=await hostel.find()
 res.json(hostellist);
@@ -40,8 +40,7 @@ app.post('/hostel',(req,res)=>{
         let v=await hostel.findOne({'hostelno':h})
         console.log(v);
         v.name=req.body.name
-        v.roomno=req.body.roomno
-
+        v.roomno=req.body.roomno;
         v.warden_name=req.body.warden_name
         v.mess_capacity=req.body.mess_capcity
         v.save();
