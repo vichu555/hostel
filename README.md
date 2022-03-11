@@ -1,3 +1,2 @@
 
-# hostel-man
-kjbdskufssl,f
+# hostel-manhostel guys are very bad
